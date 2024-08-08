@@ -144,7 +144,7 @@ void RCC_APB2PeriphReset(uint8_t PerNum)
 }
 
 
-void RCC_GetAPB1Value(uint32_t *APB2Value)
+uint32_t RCC_GetAPB1Value(void)	//uint32_t *APB2Value
 {
 	uint32_t PCLK1,SystemClk;
 	uint8_t ClockSource,Temp,APB1Prescaler;
@@ -164,6 +164,9 @@ void RCC_GetAPB1Value(uint32_t *APB2Value)
 	{
 		// PLL
 	}
+	else if (ClockSource == 3) {
+		//PLL_R used as the system clock
+	}
 	
 	//for AHB pre-scaler
 	Temp = ((RCC->CFGR >> 4 ) & 0xF);
@@ -176,7 +179,6 @@ void RCC_GetAPB1Value(uint32_t *APB2Value)
 	{
 		AHBPrescaler = AHB_PreScaler[Temp-8];
 	}
-
 
 	//apb1
 	Temp = ((RCC->CFGR >> 10 ) & 0x7);
@@ -192,7 +194,8 @@ void RCC_GetAPB1Value(uint32_t *APB2Value)
 
 	PCLK1 =  (SystemClk / AHBPrescaler) /APB1Prescaler;
 
-	*APB2Value = PCLK1;
+//	*APB2Value = PCLK1;
+	return PCLK1;
 }
 
 void RCC_GetAPB2Value(uint32_t *APB2Value)

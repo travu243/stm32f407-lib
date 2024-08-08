@@ -1,5 +1,4 @@
 
-
 /*
  * stm32f407xx_rcc_driver.h
  *
@@ -35,10 +34,11 @@ void RCC_APB2PeriphClockDisable(uint8_t PerNum);
 void RCC_AHB2PeriphReset(uint8_t PerNum);
 void RCC_APB1PeriphReset(uint8_t PerNum);
 void RCC_APB2PeriphReset(uint8_t PerNum);
-void RCC_GetAPB1Value(uint32_t *APB2Value);
+uint32_t RCC_GetAPB1Value(void);
 void RCC_GetAPB2Value(uint32_t *APB2Value);
 void RCC_GetSysClkType(uint8_t *SysClkType);
 void RCC_GetSysClkValue(uint32_t *SysClkValue);
 
 
 #endif /* STM32F407XX_RCC_DRIVER_H_ */
+

@@ -1,0 +1,13 @@
+--cpu=Cortex-M4.fp
+".\main.o"
+".\stm32f407xx_gpio_driver.o"
+".\stm32f407xx_i2c_driver.o"
+".\stm32f407xx_rcc_driver.o"
+".\stm32f407xx_spi_driver.o"
+".\stm32f407xx_usart_driver.o"
+".\startup_stm32f407xx.o"
+".\system_stm32f4xx.o"
+--strict --scatter ".\spi.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\spi.map" -o .\spi.axf

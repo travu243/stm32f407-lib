@@ -1,0 +1,37 @@
+Dependencies for Project 'i2c', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x66B32D82)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Inc -I ..\Src-I.\RTE\_Target_1-I"C:\Users\dau buoi\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\dau buoi\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F407xx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB87F2)
+I (..\Inc\stm32f407xx.h)(0x66B1049D)
+I (..\Inc\stm32f407xx_i2c_driver.h)(0x66B32AB7)
+I (..\Inc\stm32f407xx_gpio_driver.h)(0x66AF5069)
+F (..\Inc\stm32f407xx.h)(0x66B1049D)()
+F (..\Inc\stm32f407xx_gpio_driver.h)(0x66AF5069)()
+F (..\Inc\stm32f407xx_i2c_driver.h)(0x66B32AB7)()
+F (..\Inc\stm32f407xx_rcc_driver.h)(0x66B20FED)()
+F (..\Inc\stm32f407xx_usart_driver.h)(0x66B21025)()
+F (..\Src\stm32f407xx_gpio_driver.c)(0x66AF52B4)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Inc -I ..\Src-I.\RTE\_Target_1-I"C:\Users\dau buoi\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\dau buoi\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F407xx-o .\objects\stm32f407xx_gpio_driver.o --omf_browse .\objects\stm32f407xx_gpio_driver.crf --depend .\objects\stm32f407xx_gpio_driver.d)
+I (..\Inc\stm32f407xx_gpio_driver.h)(0x66AF5069)
+I (..\Inc\stm32f407xx.h)(0x66B1049D)
+F (..\Src\stm32f407xx_i2c_driver.c)(0x66B334D8)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Inc -I ..\Src-I.\RTE\_Target_1-I"C:\Users\dau buoi\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\dau buoi\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F407xx-o .\objects\stm32f407xx_i2c_driver.o --omf_browse .\objects\stm32f407xx_i2c_driver.crf --depend .\objects\stm32f407xx_i2c_driver.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB87F2)
+I (..\Inc\stm32f407xx_i2c_driver.h)(0x66B32AB7)
+I (..\Inc\stm32f407xx.h)(0x66B1049D)
+I (..\Inc\stm32f407xx_rcc_driver.h)(0x66B20FED)
+F (..\Src\stm32f407xx_rcc_driver.c)(0x66B22514)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Inc -I ..\Src-I.\RTE\_Target_1-I"C:\Users\dau buoi\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\dau buoi\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F407xx-o .\objects\stm32f407xx_rcc_driver.o --omf_browse .\objects\stm32f407xx_rcc_driver.crf --depend .\objects\stm32f407xx_rcc_driver.d)
+I (..\Inc\stm32f407xx_rcc_driver.h)(0x66B20FED)
+I (..\Inc\stm32f407xx.h)(0x66B1049D)
+F (..\Src\stm32f407xx_usart_driver.c)(0x66B32AB8)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Inc -I ..\Src-I.\RTE\_Target_1-I"C:\Users\dau buoi\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\dau buoi\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F407xx-o .\objects\stm32f407xx_usart_driver.o --omf_browse .\objects\stm32f407xx_usart_driver.crf --depend .\objects\stm32f407xx_usart_driver.d)
+I (..\Inc\stm32f407xx_usart_driver.h)(0x66B21025)
+I (..\Inc\stm32f407xx.h)(0x66B1049D)
+I (..\Inc\stm32f407xx_rcc_driver.h)(0x66B20FED)
+F (RTE\Device\STM32F407VGTx\startup_stm32f407xx.s)(0x637457FA)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\_Target_1-I"C:\Users\dau buoi\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\dau buoi\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"--pd "__UVISION_VERSION SETA 527" --pd "_RTE_ SETA 1" --pd "STM32F407xx SETA 1"--list .\listings\startup_stm32f407xx.lst --xref -o .\objects\startup_stm32f407xx.o --depend .\objects\startup_stm32f407xx.d)
+F (RTE\Device\STM32F407VGTx\system_stm32f4xx.c)(0x637457FA)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Inc -I ..\Src-I.\RTE\_Target_1-I"C:\Users\dau buoi\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\dau buoi\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F407xx-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (C:\Users\dau buoi\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x637457FA)
+I (C:\Users\dau buoi\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x637457FA)
+I (C:\Users\dau buoi\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F5BE4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB87F2)
+I (C:\Users\dau buoi\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B972254)
+I (C:\Users\dau buoi\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F5BE4)
+I (C:\Users\dau buoi\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F5BE4)
+I (C:\Users\dau buoi\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F5BE4)
+I (C:\Users\dau buoi\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x637457FA)
